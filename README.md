@@ -1,6 +1,5 @@
-# Clock1
-
 PCB and Arduino code for a basic clock
+<a href="http://www.deluxecapacitor.com/projects/view/1" id='project-link'>Project Page</a>
 
 ### Features
 
@@ -12,11 +11,3 @@ PCB and Arduino code for a basic clock
 - Mini USB power connector
 - FTDI programming port
 - ICSP port
-
-### Photos
-<img width="300px" src="https://raw.githubusercontent.com/richardhawthorn/Clock1/master/images/photo1.jpg">
-<img width="300px" src="https://raw.githubusercontent.com/richardhawthorn/Clock1/master/images/photo2.jpg">
-
-### Board Layout
-<img width="300px" src="https://raw.githubusercontent.com/richardhawthorn/Clock1/master/images/pcb_front.png">
-<img width="300px" src="https://raw.githubusercontent.com/richardhawthorn/Clock1/master/images/pcb_back.png">
