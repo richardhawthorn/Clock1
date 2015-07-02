@@ -1,5 +1,7 @@
 PCB and Arduino code for a basic clock
-<a href="http://www.deluxecapacitor.com/projects/view/1" id='project-link'>Project Page</a>
+<div id='project-link'>
+	<a href="http://www.deluxecapacitor.com/projects/view/1">Project Page</a>
+</div>
 
 ### Features
 
