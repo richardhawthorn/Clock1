@@ -1,0 +1,108 @@
+### Instructions
+
+##### Initial components
+
+Lets start building!
+
+- Resistors: there are 3 different types
+It doesn’t matter which way around these go.
+
+82r (grey red black)
+Part: R1, R2, R3, R4, R5, R6, R7, R8  
+     
+680r (blue grey brown)
+Part: R9
+
+10k (brown black black red)
+Part: R10, R11, R12, R13   
+
+- USB connector
+Part: USB
+
+- Buttons 
+Part: BTN1, BTN2
+
+- IC socket
+Part: IC1
+Make sure to match up the notch in the socket with the notch mark on the PCB
+Don’t put in the Arduino chip yet, we’ll do that later.
+
+- Capacitors
+0.1uf
+Part: C1, C2, C3  
+
+- 7 Segment LED
+Make sure the decimal places are at the bottom
+Part: LED1
+
+- Crystal
+Part: QF1
+
+- FTDI (Programming connector)
+Part: CN4
+
+##### Testing
+
+Now is a good time to test your soldering (before you have added your Arduino chip).
+With your multimeter set to continuity mode, test to make sure you don’t have a short on the power line. Try testing the processor pins 7 and 8, they should not be connected.
+
+If you have a short here, or any other unexpected result during this build you will need to investigate further.  Check your soldering to make sure pins are not shorted together, make sure all solder joins are clean.
+
+Plug in your usb cable, and check the power on the board, do you get 5v between pins 7 and 8 on the processor?
+
+If you read anything less than 5v, unplug immediately.
+
+If that all looks good then we can add in our Arduino chip (Unplug the USB power connector before proceeding). 
+
+Remember to make sure the notch on the end of the processor matches up with the notch on the socket.
+
+##### Final components
+- CR1220 Battery clip
+Part: BATT 
+
+- Calendar Chip - DS3231
+Part: IC2
+
+Soldering this part requires a steady hand, as it is a surface mount part.  Start by soldering 2 opposite pins of the device, making sure the notch on the chip matches up with the notch on the PCB.
+
+Once you have 2 pins soldered, add some flux to the pins on one side of the chip.  Add solder to the tip of your iron, and touch it on each pin individually.  Do this with every pin on the first side of the chip. Make sure all pins are properly soldered before proceeding, this may mean repeating the soldering as above.
+
+Repeat on the other side of the chip until all pins are soldered.
+
+Note: no component is needed for the ICSP1 connector
+
+##### Final testing
+
+Re-check your soldering by putting the multimeter back into continuity mode, and checking pins 7 and 8 of the processor again.  These should not be shorted.
+
+Power up the board and make sure you get 5v between pins 7 and 8.
+
+If you read anything less than 5v, unplug immediately. 
+
+Investigate your soldering if you see unexpected results.
+
+##### Programming
+
+You are now ready to program your device, grab an FTDI programmer, your usb cable and your laptop.  
+
+Make sure you have downloaded the Arduino IDE from arduino.cc
+
+You will also need the RTC library, follow their install instructions to get the library setup. Details here:
+https://github.com/adafruit/RTClib
+
+You may need to restart the Arduino IDE before proceeding
+
+You can now download the clock software here: https://github.com/richardhawthorn/Clock1
+
+When programming set the device as “Arduino UNO” 
+
+##### Front plate
+
+Once you have the software working you can add the front plate.
+
+Remove the plastic from the perspex front plate, and screw it to the pillars.  This can then be attached to the pcbs using the remains screws.
+
+##### Finished!
+
+Da-da! You’ve built yourself an Arduino Clock.  Congratulations!
+
