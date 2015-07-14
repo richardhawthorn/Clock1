@@ -1,27 +1,29 @@
-### Partlist
+### Part list
 
+<pre>
 Qty Value       Device          Parts      
                     
-3   0.1uf       Capacitor       C1, C2, C3                                                                                                                                  
-4   10K         Resistor        R10, R11, R12, R13                                                              
-1   680r        Resistor        R9                                 
-8   82r         Resistor        R1, R2, R3, R4, R5, R6, R7, R8                               
-1   7SEG        7 Segment LED   LED1                                                                                                     
-1   8M10AHC49T  Crystal         QF1                            
-1   ATMAGE328P  Processor       IC1                                                                           
-1   CR1220      Battery         BATT                                                   
-1   DS3231      Calendar        IC2                                                                                                      
-1   FTDI        Connector-1X6   CN4                     
-1   ICSP        Connector-2X3   ICSP1   (No component needed)                                                                                
-1   HOURS       Button          BTN1                                                                                                                                                                 
-1   MINUTES     Button          BTN2                                                                                                     
-1   USB         Mini USB        CN1                                                                                
+3   0.1uf       Capacitor       C1, C2, C3 
+4   10K         Resistor        R10, R11, R12, R13 
+1   680r        Resistor        R9 
+8   82r         Resistor        R1, R2, R3, R4, R5, R6, R7, R8 
+1   7SEG        7 Segment LED   LED1 
+1   8M10AHC49T  Crystal         QF1  
+1   ATMAGE328P  Processor       IC1 
+1   CR1220      Battery         BATT   
+1   DS3231      Calendar        IC2 
+1   FTDI        Connector-1X6   CN4 
+1   ICSP        Connector-2X3   ICSP1   (No component needed) 
+1   HOURS       Button          BTN1                                                                              
+1   MINUTES     Button          BTN2
+1   USB         Mini USB        CN1
+</pre>
 
 ### Additional Hardware
 
-1   Battery
-1   IC Socket
-1   PCB
-1   Front Plate
-4   Pillars
-8   Screws
+1 x Battery  
+1 x IC Socket  
+1 x PCB  
+1 x Front Plate  
+4 x Pillars  
+8 x Screws  
