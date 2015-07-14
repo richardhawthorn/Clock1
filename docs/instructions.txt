@@ -6,14 +6,11 @@ Lets start building!
 
 - Resistors: there are 3 different types  
 It doesn’t matter which way around these go.
-  
-82r (grey red black)  
+ - 82r (grey red black)  
 Part: R1, R2, R3, R4, R5, R6, R7, R8   
-  
-680r (blue grey brown)  
+ - 680r (blue grey brown)  
 Part: R9  
-  
-10k (brown black black red)  
+ - 10k (brown black black red)  
 Part: R10, R11, R12, R13    
 
 - USB connector  
@@ -57,11 +54,11 @@ If that all looks good then we can add in our Arduino chip (Unplug the USB power
 Remember to make sure the notch on the end of the processor matches up with the notch on the socket.
 
 ##### Final components
-- CR1220 Battery clip
-Part: BATT 
+- CR1220 Battery clip  
+Part: BATT   
 
-- Calendar Chip - DS3231
-Part: IC2
+- Calendar Chip - DS3231  
+Part: IC2  
 
 Soldering this part requires a steady hand, as it is a surface mount part.  Start by soldering 2 opposite pins of the device, making sure the notch on the chip matches up with the notch on the PCB.
 
