@@ -4,42 +4,42 @@
 
 Lets start building!
 
-- Resistors: there are 3 different types
+- Resistors: there are 3 different types  
 It doesn’t matter which way around these go.
+  
+82r (grey red black)  
+Part: R1, R2, R3, R4, R5, R6, R7, R8   
+  
+680r (blue grey brown)  
+Part: R9  
+  
+10k (brown black black red)  
+Part: R10, R11, R12, R13    
 
-82r (grey red black)
-Part: R1, R2, R3, R4, R5, R6, R7, R8  
-     
-680r (blue grey brown)
-Part: R9
+- USB connector  
+Part: USB  
 
-10k (brown black black red)
-Part: R10, R11, R12, R13   
+- Buttons   
+Part: BTN1, BTN2  
 
-- USB connector
-Part: USB
+- IC socket  
+Part: IC1  
+Make sure to match up the notch in the socket with the notch mark on the PCB  
+Don’t put in the Arduino chip yet, we’ll do that later.  
 
-- Buttons 
-Part: BTN1, BTN2
+- Capacitors  
+0.1uf  
+Part: C1, C2, C3    
 
-- IC socket
-Part: IC1
-Make sure to match up the notch in the socket with the notch mark on the PCB
-Don’t put in the Arduino chip yet, we’ll do that later.
+- 7 Segment LED  
+Make sure the decimal places are at the bottom  
+Part: LED1  
 
-- Capacitors
-0.1uf
-Part: C1, C2, C3  
+- Crystal  
+Part: QF1  
 
-- 7 Segment LED
-Make sure the decimal places are at the bottom
-Part: LED1
-
-- Crystal
-Part: QF1
-
-- FTDI (Programming connector)
-Part: CN4
+- FTDI (Programming connector)  
+Part: CN4  
 
 ##### Testing
 
