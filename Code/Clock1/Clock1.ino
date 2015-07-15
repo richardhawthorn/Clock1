@@ -91,20 +91,11 @@ void setup() {
 }
 
 
-//main loop
-void loop() {
- 
-  getTime();
-  //convert12h();
-  displayTime();
-  
-  checkButtons();
-  
-}
+
 
 
 //format and display the time
-displayTime(){
+void displayTime(){
   timecc = hh*100+mm;
   showNum(timecc);
 }
@@ -408,5 +399,16 @@ void updateRTC() {
 }
 
 
+
+//main loop
+void loop() {
+ 
+  getTime();
+  //convert12h();
+  displayTime();
+  
+  checkButtons();
+  
+}
 
 
