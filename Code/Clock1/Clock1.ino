@@ -53,6 +53,11 @@ int hoursButton = A0;
 int minsButton = A1;
 int decimal = A2;
 
+//colon pin used for clock2.1 variant
+int colon = A3;
+boolean colonState = false;
+long colonCounter = 0;
+
 //setup
 void setup() {
 
@@ -69,6 +74,7 @@ void setup() {
   pinMode(digitTwo, OUTPUT);
   pinMode(digitThree, OUTPUT);
   pinMode(digitFour, OUTPUT);
+  pinMode(colon, OUTPUT);
   
   //buttons (with pullups)
   pinMode(hoursButton, INPUT_PULLUP);
@@ -398,6 +404,24 @@ void updateRTC() {
   Wire.endTransmission();
 }
 
+void checkColon(){
+
+  //code used to flash the colon on the v2.1 variant
+  colonCounter++;
+
+  if (colonCounter > 86){
+    colonCounter = 0;
+    if (colonState){
+      colonState = false;
+      digitalWrite(colon,HIGH);
+    } else {
+      colonState = true;
+      digitalWrite(colon,LOW);
+    }
+  }
+  
+}
+
 
 
 //main loop
@@ -406,8 +430,8 @@ void loop() {
   getTime();
   //convert12h();
   displayTime();
-  
   checkButtons();
+  checkColon();
   
 }
 
