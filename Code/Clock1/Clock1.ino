@@ -119,7 +119,7 @@ void getTime(){
     hours = 0;
   } 
   
-  if (mm > 60){
+  if (mm >= 60){
     mm = 0;
   } 
   
