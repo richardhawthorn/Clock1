@@ -16,3 +16,8 @@ PCB and Arduino code for a basic clock
 - Mini USB power connector
 - FTDI programming port
 - ICSP port
+
+#### Changes
+
+Clock1.1 - First version
+Clock1.2 - Replaced surface mount USB connector with through hole version
